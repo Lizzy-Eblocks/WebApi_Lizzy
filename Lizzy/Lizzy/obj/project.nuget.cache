@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "maVoMiQIVy7VNYx/KwA+lhVqE3/+EpjHpo6wTGlwGhc7Y29XVDUaZdtOhelACbCdPAHheZvNObbu3poGgR5kHw==",
+  "dgSpecHash": "6kw34ALk81c5y6OtHbfdxkfSanFpf6ZKBlH5qygiXsZ3iYWmCtzTN2mgpCH/AmaAl9cBINloDDmFkhnQqkbMnA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\Lizzy\\Lizzy\\Lizzy.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\WebApi_Lizzy\\Lizzy\\Lizzy\\Lizzy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

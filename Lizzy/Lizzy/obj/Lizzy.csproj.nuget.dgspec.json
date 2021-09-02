@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Lizzy\\Lizzy\\Lizzy.csproj": {}
+    "C:\\Users\\user\\Desktop\\WebApi_Lizzy\\Lizzy\\Lizzy\\Lizzy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\Lizzy\\Lizzy\\Lizzy.csproj": {
+    "C:\\Users\\user\\Desktop\\WebApi_Lizzy\\Lizzy\\Lizzy\\Lizzy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Lizzy\\Lizzy\\Lizzy.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\WebApi_Lizzy\\Lizzy\\Lizzy\\Lizzy.csproj",
         "projectName": "Lizzy",
-        "projectPath": "C:\\Users\\user\\Desktop\\Lizzy\\Lizzy\\Lizzy.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\WebApi_Lizzy\\Lizzy\\Lizzy\\Lizzy.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Lizzy\\Lizzy\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\WebApi_Lizzy\\Lizzy\\Lizzy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

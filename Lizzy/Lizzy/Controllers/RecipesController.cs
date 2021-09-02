@@ -12,12 +12,13 @@ namespace Lizzy.Controllers
     public class RecipesController : ControllerBase
     {
         [HttpGet]
-        public ActionResult GetDishes()
+        public ActionResult GetDishes([FromQuery]int count)
         {
-            string[] dishes = { "Burger", "Water", "Sweets", "Mealies" };
-            if (dishes.Any())
+            string[] Recipes = { "Burger", "Water", "Sweets", "Mealies" };
+            if (!Recipes.Any()){ 
                 return NotFound();
-            return Ok(dishes);
+                }
+            return Ok(Recipes.Take(count));
         }
         [HttpPost]
         public ActionResult CreateNewRecipes()
