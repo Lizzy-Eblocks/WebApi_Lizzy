@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Lizzy.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,16 +15,22 @@ namespace Lizzy.Controllers
         [HttpGet]
         public ActionResult GetDishes([FromQuery]int count)
         {
-            string[] Recipes = { "Burger", "Water", "Sweets", "Mealies" };
-            if (!Recipes.Any()){ 
-                return NotFound();
-                }
+            Recipe[] Recipes = {
+            new() { Title = "Oxtail" },
+            new() { Title = "Burger" },
+            new() { Title = "Green Salad" },
+            new() { Title = "Beans" }
+            };
+            
             return Ok(Recipes.Take(count));
         }
         [HttpPost]
-        public ActionResult CreateNewRecipes()
+        public ActionResult CreateNewRecipes( [FromBody] Recipe newRecipe)
         {
-            return BadRequest();
+            bool badThingsHappen = false;
+            if (badThingsHappen)
+                return BadRequest();
+            return Created("", newRecipe);
         }
         [HttpDelete]
         public ActionResult DeleteRecipes()
